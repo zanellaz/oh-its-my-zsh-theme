@@ -15,5 +15,5 @@ $ nano ~/.zshrc
 ````
 
 ````
-$ change ZSH_THEME to "zanellaz"
+change ZSH_THEME to "zanellaz"
 ````
