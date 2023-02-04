@@ -8,7 +8,7 @@ you need
 
 # How to install
 
-1. cd ~/.oh-my-zsh/themes ./wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme
+1. cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
 
 2. nano ~/.zshrc
 
