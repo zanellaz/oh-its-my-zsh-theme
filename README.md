@@ -8,7 +8,7 @@ you need
 
 # How to install
 
-git clone https://github.com/zanellaz/oh-its-my-zsh-theme.git ~/.oh-my-zsh/themes
+wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme ~/.oh-my-zsh/themes
 
 1. nano ~/.zshrc
 2. change ZSH_THEME to "zanellaz"
