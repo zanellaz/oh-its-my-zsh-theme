@@ -10,6 +10,5 @@ you need
 
 git clone https://github.com/zanellaz/oh-its-my-zsh-theme.git ~/.oh-my-zsh/themes
 
-nano ~/.zshrc
-change 
-ZSH_THEME to "zanellaz"
+1. nano ~/.zshrc
+2. change ZSH_THEME to "zanellaz"
