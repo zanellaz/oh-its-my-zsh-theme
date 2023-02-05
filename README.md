@@ -3,6 +3,7 @@
 1. oh-my-zsh (of course)
 2. lolcat
 3. neofetch
+4. fonts-noto
 
 # How to install
 
