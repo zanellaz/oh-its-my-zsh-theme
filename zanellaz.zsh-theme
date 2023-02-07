@@ -3,7 +3,7 @@
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 function virtualenv_info {
-    [ $VIRTUAL_ENV ] && echo '('%F{blue}`basename $VIRTUAL_ENV`%f') '
+    [ $VIRTUAL_ENV ] && echo '('%F{blue}`basename $VIRTUAL_ENV`%f')'
 }
 PR_GIT_UPDATE=1
 
@@ -126,5 +126,13 @@ function pato {
     fi
 }
 
-PROMPT=$'%{$fg_bold[red]%}>%{$fg_bold[cyan]%}>%{$fg_bold[yellow]%}> %{$FG[208]%}%n${PR_RST} %{$FG[015]%}at %{$FG[129]%}%m${PR_RST} %{$FG[015]%}in 🖿 %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)$(pato)
+function folder {
+    if [ -z "$(command ls -A $1)" ]; then
+        echo 🗀
+    else
+        echo 🖿
+    fi
+}
+
+PROMPT=$'%{$fg_bold[red]%}>%{$fg_bold[cyan]%}>%{$fg_bold[yellow]%}> %{$FG[208]%}%n${PR_RST} %{$FG[015]%}at %{$FG[129]%}%m${PR_RST} %{$FG[015]%}in $(folder)🖿 %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)$(pato)
 $ %{$reset_color%}'
