@@ -134,5 +134,5 @@ function folder {
     fi
 }
 
-PROMPT=$'%{$fg_bold[red]%}>%{$fg_bold[cyan]%}>%{$fg_bold[yellow]%}> %{$FG[208]%}%n${PR_RST} %{$FG[015]%}at %{$FG[129]%}%m${PR_RST} %{$FG[015]%}in $(folder)🖿 %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)$(pato)
+PROMPT=$'%{$fg_bold[red]%}>%{$fg_bold[cyan]%}>%{$fg_bold[yellow]%}> %{$FG[208]%}%n${PR_RST} %{$FG[015]%}at %{$FG[129]%}%m${PR_RST} %{$FG[015]%}in $(folder) %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)$(pato)
 $ %{$reset_color%}'
