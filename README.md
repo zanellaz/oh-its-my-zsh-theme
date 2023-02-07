@@ -4,6 +4,7 @@
 2. lolcat
 3. neofetch
 4. fonts-noto
+5. a nerd font of your preference https://www.nerdfonts.com/
 
 # How to install
 
