@@ -17,4 +17,6 @@ nano ~/.zshrc
 ````
 
 
-And change ZSH_THEME to "zanellaz"
+- Change ZSH_THEME to "zanellaz"
+
+- Start a new terminal session.
