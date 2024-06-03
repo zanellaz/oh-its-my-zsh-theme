@@ -9,12 +9,12 @@
 # Install
 
 ````
-$ cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
+cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
 ````
 
 ````
-$ nano ~/.zshrc
+nano ~/.zshrc
 ````
 
 
-Now change ZSH_THEME to "zanellaz"
+And change ZSH_THEME to "zanellaz"
