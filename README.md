@@ -16,6 +16,5 @@ $ cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-i
 $ nano ~/.zshrc
 ````
 
-````
-change ZSH_THEME to "zanellaz"
-````
+
+Now change ZSH_THEME to "zanellaz"
