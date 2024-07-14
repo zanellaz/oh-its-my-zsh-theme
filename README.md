@@ -1,26 +1,26 @@
 # Requirements
 
-1. oh-my-zsh (of course)
-2. lolcat
-3. neofetch
-4. fonts-noto
-5. a nerd font of your preference https://www.nerdfonts.com/
+- oh-my-zsh (of course)
+- lolcat
+- neofetch
+- fonts-noto
+- a nerd font of your preference https://www.nerdfonts.com/
 
 # Install
 
-````
+1. ````
 cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
 ````
 
-````
+2. ````
 sudo cd /usr/share/ && mkdir splash && cd splash && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/splash.txt && cd
 ````
 
-````
+3. ````
 nano ~/.zshrc
 ````
 
 
-- Change ZSH_THEME to "zanellaz"
+4. Change ZSH_THEME to "zanellaz"
 
-- Start a new terminal session.
+5. Start a new terminal session.
