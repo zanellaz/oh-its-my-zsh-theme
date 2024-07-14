@@ -3,7 +3,7 @@
 - oh-my-zsh (of course)
 - lolcat
 - neofetch
-- fonts-noto
+- cowsay
 - a nerd font of your preference https://www.nerdfonts.com/
 
 # How to install
