@@ -13,6 +13,10 @@ cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its
 ````
 
 ````
+sudo cd /usr/share/ && mkdir splash && cd splash && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/splash.txt && cd
+````
+
+````
 nano ~/.zshrc
 ````
 
