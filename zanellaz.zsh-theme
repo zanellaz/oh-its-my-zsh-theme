@@ -115,6 +115,10 @@ echo "
 
 neofetch --source /tmp/duck-image.txt | lolcat
 
+echo "-------------------------------------------------------------------------------------"
+
+cowsay -f `ls /usr/share/cowsay/cows/ | shuf -n 1` $(cat /usr/share/splash/splash.txt | awk "NR == $(shuf -i1-$(awk 'END { print NR }' /usr/share/splash/splash.txt) -n1)") | lolcat
+
 echo "𓅰" > /tmp/duck-zsh.txt
 function pato {
     pato=$(cat /tmp/duck-zsh.txt)
