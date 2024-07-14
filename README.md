@@ -8,16 +8,16 @@
 
 # Install
 
-1. ````
-cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
+````
+1. cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
 ````
 
-2. ````
-sudo cd /usr/share/ && mkdir splash && cd splash && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/splash.txt && cd
+````
+2. sudo cd /usr/share/ && mkdir splash && cd splash && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/splash.txt && cd
 ````
 
-3. ````
-nano ~/.zshrc
+````
+3. nano ~/.zshrc
 ````
 
 
