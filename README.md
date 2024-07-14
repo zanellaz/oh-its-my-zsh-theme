@@ -6,7 +6,7 @@
 - fonts-noto
 - a nerd font of your preference https://www.nerdfonts.com/
 
-# Install
+# How to install
 
 ````
 1. cd ~/.oh-my-zsh/themes && wget https://raw.githubusercontent.com/zanellaz/oh-its-my-zsh-theme/main/zanellaz.zsh-theme && cd -
